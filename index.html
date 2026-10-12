@@ -1,17 +1,56 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Merchant & Buono</title><style>body{margin:0;background:#fdfbf7;font-family:serif;text-align:center}nav{position:sticky;top:0;background:#fdfbf7;padding:12px;border-bottom:1px solid #e8e0d5}nav a{margin:0 8px;text-decoration:none;color:#222;font-size:12px;letter-spacing:2px}.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:15px;padding:20px;max-width:900px;margin:auto}.menu a{background:#fff;border:1px solid #e8e0d5;padding:10px;text-decoration:none;color:#222}.menu img{width:100%;height:140px;object-fit:cover}.sec{padding:50px 15px;max-width:900px;margin:auto;border-top:1px solid #eee}.btn{display:inline-block;padding:10px 20px;border:1px solid #222;text-decoration:none;color:#222;margin-top:10px}.btn-gold{background:#c5a87d;border-color:#c5a87d;color:#fff}</style></head><body>
-<nav><a href="#inicio">INICIO</a><a href="#plata">PLATA</a><a href="#oro">ORO</a><a href="#relojeria">RELOJERIA</a></nav>
-<div id="inicio" style="padding:30px"><h1 style="font-size:50px;margin:0">Merchant & Buono</h1><p>PLATA .925 • ORO • RELOJERIA</p></div>
-<div class="menu">
-<a href="#plata"><img src="https://via.placeholder.com/300?text=PLATA"><p>PLATA .925</p></a>
-<a href="#oro"><img src="https://via.placeholder.com/300?text=ORO"><p>ORO</p></a>
-<a href="#relojeria"><img src="https://via.placeholder.com/300?text=RELOJES"><p>RELOJERIA</p></a>
-</div>
-<div id="relojeria" class="sec"><h2>RELOJERIA</h2><div class="menu">
-<a href="#casio"><img src="https://via.placeholder.com/300?text=CASIO"><p>CASIO</p></a>
-<a href="#fossil"><img src="https://via.placeholder.com/300?text=FOSSIL"><p>FOSSIL</p></a>
-<a href="#seiko1"><img src="https://via.placeholder.com/300?text=SEIKO"><p>SEIKO</p></a>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Merchant & Buono</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#fbfaf7;font-family:'Inter',sans-serif}
+h1,h2{font-family:'Playfair Display',serif}
+header{background:#0f0f0f;color:#fff;padding:18px 0;text-align:center;position:sticky;top:0;z-index:99}
+header h1{margin:0;letter-spacing:6px;font-size:22px}
+nav{margin-top:8px}nav a{color:#ccc;margin:0 18px;text-decoration:none;font-size:12px;letter-spacing:2px}
+nav a:hover{color:#fff}
+.hero{padding:90px 20px;text-align:center;background:linear-gradient(180deg,#ece6db 0%,#fbfaf7 100%)}
+.hero h2{font-size:48px;margin:0;letter-spacing:1px}
+.btn{margin-top:25px;display:inline-block;background:#0f0f0f;color:#fff;padding:14px 32px;text-decoration:none;letter-spacing:2px;font-size:12px}
+.section{max-width:1250px;margin:auto;padding:70px 22px}
+.badge{display:inline-block;background:#0f0f0f;color:#fff;padding:6px 12px;font-size:10px;letter-spacing:2px;margin-bottom:15px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:22px;margin-top:25px}
+.card{background:#fff;border:1px solid #eee;padding:12px;text-align:center;transition:.25s}
+.card:hover{transform:translateY(-6px);box-shadow:0 10px 30px rgba(0,0,0,.08)}
+.card img{width:100%;height:300px;object-fit:contain;background:#fff}
+.card h3{font-size:13px;letter-spacing:1px;margin:12px 0 4px}
+.card p{font-size:11px;color:#888;letter-spacing:1px;margin:0}
+footer{background:#0f0f0f;color:#888;text-align:center;padding:40px 20px;font-size:12px;letter-spacing:1px}
+</style>
+</head>
+<body>
+<header><h1>MERCHANT & BUONO</h1><nav><a href="#perfumes">PERFUMERÍA</a><a href="#relojes">RELOJERÍA</a><a href="#joyeria">JOYERÍA</a></nav></header>
+<div class="hero"><h2>Curaduría de Tiempo y Esencia</h2><p style="letter-spacing:2px;color:#666">PUEBLA · ENVÍOS NACIONALES · ORIGINALES GARANTIZADOS</p><a class="btn" href="https://wa.me/52222XXXXXXX">COTIZAR POR WHATSAPP</a></div>
+
+<div id="perfumes" class="section"><span class="badge">PERFUMERÍA</span><h2>Ariana Grande, Paco Rabanne, Carolina Herrera</h2><div class="grid">
+<div class="card"><img src="https://fimgs.net/mdimg/perfume/375x500.57587.jpg"><h3>ARIANA GRANDE CLOUD</h3><p>EAU DE PARFUM</p></div>
+<div class="card"><img src="https://fimgs.net/mdimg/perfume/375x500.39216.jpg"><h3>PACO RABANNE 1 MILLION</h3><p>EAU DE TOILETTE</p></div>
+<div class="card"><img src="https://fimgs.net/mdimg/perfume/375x500.15373.jpg"><h3>LADY MILLION</h3><p>EAU DE PARFUM</p></div>
+<div class="card"><img src="https://fimgs.net/mdimg/perfume/375x500.38977.jpg"><h3>GOOD GIRL - CAROLINA HERRERA</h3><p>EAU DE PARFUM</p></div>
+<div class="card"><img src="https://fimgs.net/mdimg/perfume/375x500.60297.jpg"><h3>DIOR SAUVAGE ELIXIR</h3><p>EAU DE PARFUM</p></div>
 </div></div>
-<div id="casio" class="sec"><h2>CASIO</h2><p>Reloj Casio Edifice - Ejemplo</p><a class="btn btn-gold" href="https://wa.me/5212226669904?text=Hola%20me%20interesa%20Casio">COTIZAR POR WHATSAPP</a></div>
-<div id="plata" class="sec"><h2>PLATA .925</h2><p>Tus cadenas y anillos aqui</p><a class="btn btn-gold" href="https://wa.me/5212226669904">COTIZAR</a></div>
-<div id="oro" class="sec"><h2>ORO</h2><p>Tus piezas de oro aqui</p></div>
+
+<div id="relojes" class="section" style="background:#f2f0eb"><span class="badge">RELOJERÍA</span><h2>Casio, Timex, Bulova, Citizen, Tissot</h2><div class="grid">
+<div class="card"><img src="https://gshock.casio.com/content/casio/locales/us/en/brands/gshock/products/_jcr_content/root/responsivegrid/container_1870525860/container_1843599931/image.casiocoreimg.jpeg/1718154138117/dw-5600ue-1.jpeg"><h3>CASIO G-SHOCK DW-5600</h3><p>ORIGINAL</p></div>
+<div class="card"><img src="https://timex.com/cdn/shop/files/TW2W22500_2.jpg"><h3>TIMEX MARLIN AUTOMATIC</h3><p>40MM</p></div>
+<div class="card"><img src="https://citizenwatch.widen.net/content/dqhxmxj0op/png/AT2120-19A.png"><h3>CITIZEN ECO-DRIVE</h3><p>TITANIUM</p></div>
+<div class="card"><img src="https://www.bulova.com/dw/image/v2/BBVD_PRD/on/demandware.static/-/Sites-bulova-master-catalog/default/dw3b3f2b2d/images/large/96B322.png"><h3>BULOVA LUNAR PILOT</h3><p>EDICIÓN LUNAR</p></div>
+<div class="card"><img src="https://www.tissotwatches.com/media/catalog/product/cache/1f215bb0d7a04f0d7b08a0d7b2c8f1e8e/T/1/T137.407.11.041.00.png"><h3>TISSOT PRX POWERMATIC 80</h3><p>ACERO INOX</p></div>
+</div></div>
+
+<div id="joyeria" class="section"><span class="badge">JOYERÍA FINA</span><h2>Plata .925 y Oro 14K</h2><div class="grid">
+<div class="card"><img src="https://via.placeholder.com/400x500/f5f5f5/111?text=PLATA+.925+50CM"><h3>CADENA PLATA .925 50CM</h3><p>HECHO EN MÉXICO</p></div>
+<div class="card"><img src="https://via.placeholder.com/400x500/f5f5f5/111?text=DIJE+SAN+BENITO"><h3>DIJE SAN BENITO PLATA</h3><p>.925</p></div>
+<div class="card"><img src="https://via.placeholder.com/400x500/f5f5f5/111?text=ANILLO+ORO+14K"><h3>ANILLO ORO 14K ZIRCONIA</h3><p>ORO SÓLIDO</p></div>
+<div class="card"><img src="https://via.placeholder.com/400x500/f5f5f5/111?text=PULSERA+CUBANA"><h3>PULSERA CUBANA ORO</h3><p>6MM</p></div>
+</div></div>
+
+<footer>MERCHANT & BUONO © 2026 · PUEBLA, MX · CATÁLOGO SIN PRECIOS - COTIZA POR WHATSAPP</footer>
 </body></html>
